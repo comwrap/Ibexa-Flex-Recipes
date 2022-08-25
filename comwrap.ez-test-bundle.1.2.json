@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "comwrap/ez-test-bundle": {
+            "manifest": {
+                "env": {
+                    "TEST_KEY": "TEST_VALUE"
+                }
+            },
+            "files": [],
+            "ref": "652703919f935432d6e0df105571e82ac43fdde7"
+        }
+    }
+}
