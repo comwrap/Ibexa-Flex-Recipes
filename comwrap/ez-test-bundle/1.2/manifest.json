@@ -1,0 +1,6 @@
+{
+    "aliases": [],
+    "env": {
+        "TEST_KEY": "TEST_VALUE"
+    }
+}
