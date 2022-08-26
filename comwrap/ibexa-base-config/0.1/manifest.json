@@ -1,7 +1,7 @@
 {
   "copy-from-package": {
-    "src/config/": "%CONFIG_DIR%/",
-    "src/migrations/": "%MIGRATION_DIR%",
-    "src/templates/blueprint": "%TEMPLATES_DIR"
+    "src/config/": "%CONFIG_DIR%/packages/",
+    "src/migrations/": "%MIGRATION_DIR%/",
+    "src/templates/": "%TEMPLATES_DIR%/"
   }
 }
