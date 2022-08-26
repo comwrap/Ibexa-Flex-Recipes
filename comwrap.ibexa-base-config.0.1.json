@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "comwrap/ibexa-base-config": {
+            "manifest": {
+                "copy-from-package": {
+                    "src/config/*": "%CONFIG_DIR%/",
+                    "src/migrations/*": "%MIGRATION_DIR%",
+                    "src/templates/blueprint": "%TEMPLATES_DIR"
+                }
+            },
+            "files": [],
+            "ref": "2e2f9fcca8bbe69af1664a78f8bf0389843f98ea"
+        }
+    }
+}

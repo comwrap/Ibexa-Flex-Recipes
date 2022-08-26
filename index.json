@@ -3,6 +3,9 @@
     "recipes": {
         "comwrap/ez-test-bundle": [
             "1.2"
+        ],
+        "comwrap/ibexa-base-config": [
+            "0.1"
         ]
     },
     "recipe-conflicts": [],
