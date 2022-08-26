@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "comwrap/ibexa-docker-stack": {
+            "manifest": {
+                "copy-from-package": {
+                    "src/": "/"
+                }
+            },
+            "files": [],
+            "ref": "d0dcff7eb226f103d55ae9d4d6bb2ea080b2a28d"
+        }
+    }
+}

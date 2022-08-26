@@ -6,6 +6,9 @@
         ],
         "comwrap/ibexa-base-config": [
             "0.1"
+        ],
+        "comwrap/ibexa-docker-stack": [
+            "0.1"
         ]
     },
     "recipe-conflicts": [],
