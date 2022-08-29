@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "comwrap/ibexa-core-components": {
+            "manifest": {
+                "copy-from-package": {
+                    "config/": "%CONFIG_DIR%/packages/",
+                    "src/migrations/": "%MIGRATION_DIR%/"
+                }
+            },
+            "files": [],
+            "ref": "ed1693902441e0008c94022936f3b55a98e53873"
+        }
+    }
+}
