@@ -1,0 +1,6 @@
+{
+  "copy-from-package": {
+    "config/": "%CONFIG_DIR%/packages/",
+    "src/migrations/": "%MIGRATION_DIR%/"
+  }
+}
