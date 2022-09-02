@@ -1,14 +1,14 @@
 {
     "aliases": [],
     "recipes": {
-        "comwrap/ez-test-bundle": [
-            "1.2"
-        ],
         "comwrap/ibexa-base-config": [
             "0.1"
         ],
         "comwrap/ibexa-core-components": [
             "2.0"
+        ],
+        "comwrap/ibexa-dictionary": [
+            "1.0"
         ],
         "comwrap/ibexa-docker-stack": [
             "0.1"
