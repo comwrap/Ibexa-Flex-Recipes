@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "comwrap/ibexa-redirect-content": {
+            "manifest": {
+                "copy-from-package": {
+                    "src/migrations/": "%MIGRATION_DIR%/"
+                }
+            },
+            "files": [],
+            "ref": "e778bc1f022c22e9c36fb38addbe7dc8eadfab73"
+        }
+    }
+}

@@ -12,6 +12,9 @@
         ],
         "comwrap/ibexa-docker-stack": [
             "0.1"
+        ],
+        "comwrap/ibexa-redirect-content": [
+            "2.0"
         ]
     },
     "recipe-conflicts": [],
