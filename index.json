@@ -4,6 +4,9 @@
         "comwrap/ibexa-base-config": [
             "0.1"
         ],
+        "comwrap/ibexa-content-redirect": [
+            "2.0"
+        ],
         "comwrap/ibexa-core-components": [
             "2.0"
         ],
@@ -12,9 +15,6 @@
         ],
         "comwrap/ibexa-docker-stack": [
             "0.1"
-        ],
-        "comwrap/ibexa-redirect-content": [
-            "2.0"
         ]
     },
     "recipe-conflicts": [],
