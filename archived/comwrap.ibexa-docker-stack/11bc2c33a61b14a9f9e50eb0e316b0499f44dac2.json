@@ -1,0 +1,19 @@
+{
+    "manifests": {
+        "comwrap/ibexa-docker-stack": {
+            "manifest": {
+                "copy-from-package": {
+                    "src/": "/"
+                },
+                "env": {
+                    "COMPOSER_HOME": ",~/.composer",
+                    "COMPOSE_FILE": "doc/docker/base-dev-mutagen.yml",
+                    "COMPOSE_DIR": ".",
+                    "COMPOSE_PROJECT_NAME": "mas"
+                }
+            },
+            "files": [],
+            "ref": "11bc2c33a61b14a9f9e50eb0e316b0499f44dac2"
+        }
+    }
+}
