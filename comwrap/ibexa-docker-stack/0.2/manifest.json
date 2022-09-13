@@ -1,0 +1,11 @@
+{
+  "copy-from-package": {
+    "src/": "/"
+  },
+  "env": {
+    "COMPOSER_HOME": ",~/.composer",
+    "COMPOSE_FILE": "doc/docker/base-dev-mutagen.yml",
+    "COMPOSE_DIR": ".",
+    "COMPOSE_PROJECT_NAME": "mas"
+  }
+}
