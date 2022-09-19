@@ -1,9 +1,7 @@
 {
   "copy-from-package": {
-    "src/config/": "%CONFIG_DIR%/packages/",
-    "src/migrations/": "%MIGRATION_DIR%/",
-    "src/templates/": "%TEMPLATES_DIR%/",
-    "bin/vhost.sh": "%BIN_DIR%/vhost.sh"
+    "src/doc/": "/",
+    "src/bin/vhost.sh": "%BIN_DIR%/vhost.sh"
   },
   "env": {
     "COMPOSER_HOME": "~/.composer",
