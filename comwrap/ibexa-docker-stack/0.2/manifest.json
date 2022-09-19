@@ -1,9 +1,12 @@
 {
   "copy-from-package": {
-    "src/": "/"
+    "src/config/": "%CONFIG_DIR%/packages/",
+    "src/migrations/": "%MIGRATION_DIR%/",
+    "src/templates/": "%TEMPLATES_DIR%/",
+    "bin/vhost.sh": "%BIN_DIR%/vhost.sh"
   },
   "env": {
-    "COMPOSER_HOME": ",~/.composer",
+    "COMPOSER_HOME": "~/.composer",
     "COMPOSE_FILE": "doc/docker/base-dev-mutagen.yml",
     "COMPOSE_DIR": ".",
     "COMPOSE_PROJECT_NAME": "mas"
