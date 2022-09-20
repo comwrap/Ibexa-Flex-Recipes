@@ -7,6 +7,20 @@
     "COMPOSER_HOME": "~/.composer",
     "COMPOSE_FILE": "doc/docker/base-dev-mutagen.yml",
     "COMPOSE_DIR": ".",
-    "COMPOSE_PROJECT_NAME": "mas"
+    "COMPOSE_PROJECT_NAME": "yourProjectKey",
+    "PHP_INI_ENV_memory_limit": "-1",
+    "PHP_IMAGE": "ezsystems/php:8.1-v2-node14",
+    "NGINX_IMAGE": "nginx:stable",
+    "MYSQL_IMAGE": "healthcheck/mariadb",
+    "REDIS_IMAGE": "healthcheck/redis",
+    "DATABASE_USER": "ezp",
+    "DATABASE_PASSWORD": "SetYourOwnPassword",
+    "DATABASE_NAME": "ezp",
+    "DATABASE_HOST": "db",
+    "DATABASE_PORT": "3306",
+    "DATABASE_PLATFORM": "mysql",
+    "DATABASE_DRIVER": "pdo_mysql",
+    "DATABASE_VERSION": "mariadb-10.3.0",
+    "DATABASE_URL": "${DATABASE_PLATFORM}://${DATABASE_USER}:${DATABASE_PASSWORD}@${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}?serverVersion=${DATABASE_VERSION}"
   }
 }
