@@ -1,6 +1,6 @@
 {
   "copy-from-package": {
-    "src/doc/": "/",
+    "src/doc": "/",
     "src/bin/vhost.sh": "%BIN_DIR%/vhost.sh"
   },
   "env": {
