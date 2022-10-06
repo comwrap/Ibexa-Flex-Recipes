@@ -9,7 +9,7 @@
     "COMPOSE_DIR": ".",
     "COMPOSE_PROJECT_NAME": "yourProjectKey",
     "PHP_INI_ENV_memory_limit": "-1",
-    "PHP_IMAGE": "ezsystems/php:8.1-v2-node14",
+    "PHP_IMAGE": "ezsystems/php:8.1-v2-node16",
     "NGINX_IMAGE": "nginx:stable",
     "MYSQL_IMAGE": "healthcheck/mariadb",
     "REDIS_IMAGE": "healthcheck/redis",
