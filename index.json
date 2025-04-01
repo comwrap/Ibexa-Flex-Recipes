@@ -4,6 +4,9 @@
         "comwrap/ibexa-base-config": [
             "0.1"
         ],
+        "comwrap/ibexa-code-stlye": [
+            "4.6"
+        ],
         "comwrap/ibexa-content-redirect": [
             "1.0"
         ],
