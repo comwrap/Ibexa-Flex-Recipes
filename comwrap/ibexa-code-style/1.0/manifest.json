@@ -1,37 +1,17 @@
 {
-  "copy-from-recipe": {
+  "copy-from-package": {
     "data/ibexa-project-integration/": "/"
   },
-  "scripts": {
-    "cs-check": "php-cs-fixer fix --dry-run --diff",
-    "cs-fix": "php-cs-fixer fix",
-    "rector-check": "rector process --dry-run",
-    "rector-fix": "rector process",
-    "phpstan": "phpstan analyse",
-    "psalm": "psalm",
-    "security-check": "security-checker security:check",
-    "phpcs": "phpcs",
-    "phpcbf": "phpcbf",
-    "phpmd": "phpmd src text phpmd.xml",
-    "twig-lint": "bin/twig-lint",
-    "check-all": [
-      "@cs-check",
-      "@rector-check",
-      "@phpstan",
-      "@psalm",
-      "@security-check",
-      "@phpcs",
-      "@phpmd",
-      "@twig-lint"
-    ],
-    "fix-all": [
-      "@cs-fix",
-      "@rector-fix",
-      "@phpcbf"
-    ]
-  },
+  "add-lines": [
+    {
+      "file": "composer.json",
+      "content": "        \"cs-check\": \"php-cs-fixer fix --dry-run --diff\",\n        \"cs-fix\": \"php-cs-fixer fix\",\n        \"rector-check\": \"rector process --dry-run\",\n        \"rector-fix\": \"rector process\",\n        \"phpstan\": \"phpstan analyse\",\n        \"psalm\": \"psalm\",\n        \"security-check\": \"security-checker security:check\",\n        \"phpcs\": \"phpcs\",\n        \"phpcbf\": \"phpcbf\",\n        \"phpmd\": \"phpmd src text phpmd.xml\",\n        \"twig-lint\": \"bin/twig-lint\",\n        \"check-all\": [\n            \"@cs-check\",\n            \"@rector-check\",\n            \"@phpstan\",\n            \"@psalm\",\n            \"@security-check\",\n            \"@phpcs\",\n            \"@phpmd\",\n            \"@twig-lint\"\n        ],\n        \"fix-all\": [\n            \"@cs-fix\",\n            \"@rector-fix\",\n            \"@phpcbf\"\n        ]",
+      "position": "after_target",
+      "target": "\"scripts\": {"
+    }
+  ],
   "gitignore": [
-    ",/.php-cs-fixer.cache",
-    ",/.phpunit.result.cache"
+    "/.php-cs-fixer.cache",
+    "/.phpunit.result.cache"
   ]
 }
