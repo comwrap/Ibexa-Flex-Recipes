@@ -2,7 +2,7 @@
   "copy-from-recipe": {
     "data/ibexa-project-integration/": "/"
   },
-  "composer-scripts": {
+  "scripts": {
     "cs-check": "php-cs-fixer fix --dry-run --diff",
     "cs-fix": "php-cs-fixer fix",
     "rector-check": "rector process --dry-run",
@@ -21,7 +21,8 @@
       "@psalm",
       "@security-check",
       "@phpcs",
-      "@phpmd"
+      "@phpmd",
+      "@twig-lint"
     ],
     "fix-all": [
       "@cs-fix",
