@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "comwrap/ibexa-code-stlye": {
+        "comwrap/ibexa-code-style": {
             "manifest": {
                 "copy-from-recipe": {
                     "data/ibexa-project-integration/": "/"
