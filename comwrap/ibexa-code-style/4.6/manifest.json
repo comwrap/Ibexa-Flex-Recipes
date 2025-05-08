@@ -1,36 +1,17 @@
 {
-  "copy-from-recipe": {
+  "copy-from-package": {
     "data/ibexa-project-integration/": "/"
   },
-  "composer-scripts": {
-    "cs-check": "php-cs-fixer fix --dry-run --diff",
-    "cs-fix": "php-cs-fixer fix",
-    "rector-check": "rector process --dry-run",
-    "rector-fix": "rector process",
-    "phpstan": "phpstan analyse",
-    "psalm": "psalm",
-    "security-check": "security-checker security:check",
-    "phpcs": "phpcs",
-    "phpcbf": "phpcbf",
-    "phpmd": "phpmd src text phpmd.xml",
-    "twig-lint": "bin/twig-lint",
-    "check-all": [
-      "@cs-check",
-      "@rector-check",
-      "@phpstan",
-      "@psalm",
-      "@security-check",
-      "@phpcs",
-      "@phpmd"
-    ],
-    "fix-all": [
-      "@cs-fix",
-      "@rector-fix",
-      "@phpcbf"
-    ]
-  },
+  "add-lines": [
+    {
+      "file": "composer.json",
+      "content": "        \"cs-check\": \"php-cs-fixer fix --dry-run --diff -v\",\n        \"cs-fix\": \"php-cs-fixer fix\",\n        \"rector-check\": \"rector process --dry-run\",\n        \"rector-fix\": \"rector process\",\n        \"phpstan\": \"phpstan clear-result-cache && phpstan analyse\",\n        \"psalm\": \"psalm --clear-cache && psalm\",\n        \"phpcs\": \"phpcs --no-cache\",\n        \"phpcbf\": \"phpcbf -no-cache\",\n        \"phpmd\": \"phpmd src text phpmd.xml\",\n        \"check-all\": [\n            \"@cs-check\",\n            \"@rector-check\",\n            \"@phpstan\",\n            \"@psalm\",\n            \"@phpcs\",\n            \"@phpmd\"\n        ],\n        \"fix-all\": [\n            \"@cs-fix\",\n            \"@rector-fix\",\n            \"@phpcbf\"\n        ],",
+      "position": "after_target",
+      "target": "\"scripts\": {"
+    }
+  ],
   "gitignore": [
-    ",/.php-cs-fixer.cache",
-    ",/.phpunit.result.cache"
+    "/.php-cs-fixer.cache",
+    "/.phpunit.result.cache"
   ]
 }
