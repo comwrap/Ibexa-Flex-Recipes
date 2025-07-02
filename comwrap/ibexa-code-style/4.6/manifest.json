@@ -1,6 +1,22 @@
 {
   "copy-from-package": {
-    "data/ibexa-project-integration/": "/"
+    "data/ibexa-project-integration/.ddev/commands/web/check-code-style": "/.ddev/commands/web/check-code-style",
+    "data/ibexa-project-integration/.ddev/commands/web/cs-check": "/.ddev/commands/web/cs-check",
+    "data/ibexa-project-integration/.ddev/commands/web/cs-fix": "/.ddev/commands/web/cs-fix",
+    "data/ibexa-project-integration/.ddev/commands/web/fix-code-style": "/.ddev/commands/web/fix-code-style",
+    "data/ibexa-project-integration/.ddev/commands/web/phpcbf": "/.ddev/commands/web/phpcbf",
+    "data/ibexa-project-integration/.ddev/commands/web/phpcs": "/.ddev/commands/web/phpcs",
+    "data/ibexa-project-integration/.ddev/commands/web/phpmd": "/.ddev/commands/web/phpmd",
+    "data/ibexa-project-integration/.ddev/commands/web/phpstan": "/.ddev/commands/web/phpstan",
+    "data/ibexa-project-integration/.ddev/commands/web/psalm": "/.ddev/commands/web/psalm",
+    "data/ibexa-project-integration/.ddev/commands/web/rector-check": "/.ddev/commands/web/rector-check",
+    "data/ibexa-project-integration/.ddev/commands/web/rector-fix": "/.ddev/commands/web/rector-fix",
+    "data/ibexa-project-integration/.php-cs-fixer_cw.php": "/.php-cs-fixer_cw.php",
+    "data/ibexa-project-integration/phpcs_cw.xml": "/phpcs_cw.xml",
+    "data/ibexa-project-integration/phpmd_cw.xml": "/phpmd_cw.xml",
+    "data/ibexa-project-integration/phpstan_cw.neon": "/phpstan_cw.neon",
+    "data/ibexa-project-integration/psalm_cw.xml": "/psalm_cw.xml",
+    "data/ibexa-project-integration/rector_cw.php": "/rector_cw.php"
   },
   "add-lines": [
     {
