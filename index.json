@@ -1,25 +1,15 @@
 {
     "aliases": [],
     "recipes": {
-        "comwrap/ibexa-base-config": [
-            "0.1"
-        ],
         "comwrap/ibexa-code-style": [
             "1.0",
-            "4.6"
-        ],
-        "comwrap/ibexa-content-redirect": [
-            "1.0"
+            "5.0"
         ],
         "comwrap/ibexa-core-components": [
             "3.0"
         ],
         "comwrap/ibexa-dictionary": [
             "1.0"
-        ],
-        "comwrap/ibexa-docker-stack": [
-            "0.1",
-            "0.2"
         ]
     },
     "recipe-conflicts": [],
